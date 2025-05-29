@@ -139,7 +139,7 @@ function BatteryDisplay({ context }: { context: PanelExtensionContext }): JSX.El
 
   return (
     <div style={{ padding: "1rem", borderRadius: "0.5rem" }}>
-      <BatteryLevelIndicator level={(batteryMessage?.data ?? 0)*100} />
+      <BatteryLevelIndicator level={(batteryMessage?.data ?? 0)} />
     </div>
   );
 }
