@@ -1,0 +1,1181 @@
+{
+  "configById": {
+    "Image!3vdfsni": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/spot1/base/spot/camera/hand/humanflow_viz"
+      }
+    },
+    "3D!xol3k4": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 5.270401889270576,
+        "phi": 79.78254474952573,
+        "thetaOffset": -21.695741681728062,
+        "targetOffset": [
+          -0.4060253339576312,
+          0.31881573674527014,
+          6.661751405502118e-17
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "followTf": "spot1/base/spot/body",
+      "scene": {
+        "transforms": {
+          "editable": true,
+          "showLabel": false
+        },
+        "ignoreColladaUpAxis": false
+      },
+      "transforms": {
+        "frame:spot1/base/spot/body": {
+          "visible": false
+        },
+        "frame:spot1/sensor_init": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_sh0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_sh1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_hr0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_el0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_el1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_wr0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_wr1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_fngr": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/hand_color_image_sensor": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/hand_depth_sensor": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/base_link": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/feet_center": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/flat_body": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_rail": {
+          "visible": false
+        },
+        "frame:spot1/body_payload_reference": {
+          "visible": false
+        },
+        "frame:spot1/gq7_imu_link": {
+          "visible": false
+        },
+        "frame:spot1/gq7_gnss_1_antenna_link": {
+          "visible": false
+        },
+        "frame:spot1/os_sensor": {
+          "visible": false
+        },
+        "frame:spot1/os_imu": {
+          "visible": false
+        },
+        "frame:spot1/os_lidar": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/hand": {
+          "visible": false
+        },
+        "frame:spot1/hand_payload_reference": {
+          "visible": false
+        },
+        "frame:spot1/multispectral": {
+          "visible": false
+        },
+        "frame:spot1/multispectral/optical_frame": {
+          "visible": false
+        },
+        "frame:spot1/radar": {
+          "visible": false
+        },
+        "frame:spot1/radar/optical_frame": {
+          "visible": false
+        },
+        "frame:spot1/realsense": {
+          "visible": false
+        },
+        "frame:spot1/_link": {
+          "visible": false
+        },
+        "frame:spot1/thermal": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/head": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/back": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/back_fisheye": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/frontleft": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/frontleft_fisheye": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/frontright": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/frontright_fisheye": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/left": {
+          "visible": false
+        },
+        "frame:spot1/thermal/optical_frame": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/odom": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/gpe": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/vision": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/left_fisheye": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/right": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/right_fisheye": {
+          "visible": false
+        },
+        "frame:body": {
+          "visible": false
+        },
+        "frame:base_link": {
+          "visible": false
+        },
+        "frame:front_rail": {
+          "visible": false
+        },
+        "frame:real_front_rail": {
+          "visible": false
+        },
+        "frame:rear_rail": {
+          "visible": false
+        },
+        "frame:real_rear_rail": {
+          "visible": false
+        },
+        "frame:front_left_hip": {
+          "visible": false
+        },
+        "frame:front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:front_right_hip": {
+          "visible": false
+        },
+        "frame:front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:rear_left_hip": {
+          "visible": false
+        },
+        "frame:rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:rear_right_hip": {
+          "visible": false
+        },
+        "frame:rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/body": {
+          "visible": false
+        },
+        "frame:spot1/base_link": {
+          "visible": false
+        },
+        "frame:spot1/front_rail": {
+          "visible": false
+        },
+        "frame:spot1/real_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/real_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/front_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/front_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/rear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/rear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/body": {
+          "visible": false
+        },
+        "frame:spot1/base/base_link": {
+          "visible": false
+        },
+        "frame:spot1/base/front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/real_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/real_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/front_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/front_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotbody": {
+          "visible": false
+        },
+        "frame:spot1/base/spotbase_link": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spotreal_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spotreal_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotfront_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spotrear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodybody": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodybase_link": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyreal_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyreal_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyfront_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/bodyrear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/real_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/real_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/base_arm_link": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/link4": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/gripper": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/finger": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/link2": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/link1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/wrist": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/link3": {
+          "visible": false
+        },
+        "frame:base_arm_link": {
+          "visible": false
+        },
+        "frame:link4": {
+          "visible": false
+        },
+        "frame:gripper": {
+          "visible": false
+        },
+        "frame:finger": {
+          "visible": false
+        },
+        "frame:link2": {
+          "visible": false
+        },
+        "frame:link1": {
+          "visible": false
+        },
+        "frame:wrist": {
+          "visible": false
+        },
+        "frame:link3": {
+          "visible": false
+        },
+        "frame:arm_link_sh0": {
+          "visible": false
+        },
+        "frame:arm_link_sh1": {
+          "visible": false
+        },
+        "frame:arm_link_hr0": {
+          "visible": false
+        },
+        "frame:arm_link_el0": {
+          "visible": false
+        },
+        "frame:arm_link_el1": {
+          "visible": false
+        },
+        "frame:arm_link_wr0": {
+          "visible": false
+        },
+        "frame:arm_link_wr1": {
+          "visible": false
+        },
+        "frame:arm_link_fngr": {
+          "visible": false
+        }
+      },
+      "topics": {
+        "/spot1/base/spot/depth_registered/left/image": {
+          "cameraInfoTopic": "/spot1/base/spot/camera/left/camera_info",
+          "visible": false
+        },
+        "/spot1/base/autonomy/slam/edge_points": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/autonomy/slam/laser_cloud_map": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/autonomy/slam/laser_cloud_surround": {
+          "visible": false
+        },
+        "/spot1/base/autonomy/slam/planner_points": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/autonomy/slam/realsense_depth_points": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/autonomy/slam/registered_scan": {
+          "visible": true,
+          "colorField": "_auto_distance",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/autonomy/slam/velodyne_cloud_2": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/ouster/nearir_image": {
+          "visible": false
+        },
+        "/spot1/base/ouster/points": {
+          "visible": false,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/spot1/base/ouster/range_image": {
+          "visible": false
+        },
+        "/spot1/base/ouster/reflec_image": {
+          "visible": false
+        },
+        "/spot1/base/ouster/scan": {
+          "visible": false
+        },
+        "/spot1/base/spot/raw_image": {
+          "visible": false,
+          "cameraInfoTopic": "/spot1/base/spot/depth/frontright/camera_info"
+        },
+        "/spot1/base/spot/camera/left/image": {
+          "cameraInfoTopic": "/spot1/base/spot/camera/left/camera_info",
+          "visible": false
+        },
+        "/spot1/base/spot/camera/right/image": {
+          "cameraInfoTopic": "/spot1/base/spot/camera/right/camera_info",
+          "visible": false
+        },
+        "/spot1/base/spot/camera/hand/image": {
+          "cameraInfoTopic": "/spot1/base/spot/camera/hand/camera_info",
+          "visible": false
+        },
+        "/spot1/base/ouster/signal_image": {
+          "visible": false
+        },
+        "/spot1/base/spot/camera/hand/humanflow_viz": {
+          "visible": false
+        },
+        "/spot1/hand/sensor/realsense/camera/infra1/image_rect_raw": {
+          "visible": false
+        },
+        "/spot1/hand/sensor/thermal/image_raw/mono8": {
+          "visible": false
+        },
+        "/initialpose": {
+          "visible": false
+        },
+        "/move_base_simple/goal": {
+          "visible": false
+        },
+        "/spot1/base/autonomy/slam/laser_odom_path": {
+          "visible": false
+        },
+        "/spot1/base/reid_map_local": {
+          "visible": false
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "4da01c32-fb0d-4548-8a85-5a7e87bc4889",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "1189545e-22ca-47b7-8fdf-c2ead2b7d421": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "URDF",
+          "instanceId": "1189545e-22ca-47b7-8fdf-c2ead2b7d421",
+          "layerId": "foxglove.Urdf",
+          "sourceType": "url",
+          "url": "https://assets.foxglove.dev/demo-datasets/boston-dynamics-spot/spot.urdf",
+          "filePath": "",
+          "parameter": "",
+          "topic": "",
+          "framePrefix": "spot1/base/spot/",
+          "displayMode": "auto",
+          "fallbackColor": "#ffffff",
+          "order": 1
+        },
+        "a7be81f9-8197-4a1e-9056-5707875dd10a": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "URDF",
+          "instanceId": "a7be81f9-8197-4a1e-9056-5707875dd10a",
+          "layerId": "foxglove.Urdf",
+          "sourceType": "url",
+          "url": "https://raw.githubusercontent.com/bdaiinstitute/spot_description/refs/heads/main/spot_description/urdf/standalone_arm.urdf.xacro",
+          "parameter": "",
+          "topic": "",
+          "framePrefix": "spot1/base/spot/",
+          "displayMode": "auto",
+          "fallbackColor": "#ffffff",
+          "order": 2,
+          "filePath": "/home/airlab/airlab_ws/autonomy_driver_ws/src/Spot/spot_ros2/spot_description/spot_description/urdf/spot_arm_macro.urdf"
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "InteractiveMapPanel.InteractiveMap!1yyhwno": {},
+    "DiagnosticStatusPanel!20uusjk": {
+      "topicToRender": "/diagnostics",
+      "selectedHardwareId": "0",
+      "selectedName": "THERMAL"
+    },
+    "BagRecorderPanel.bag-recorder!3zcr35s": {},
+    "Image!juko9z": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/spot2/base/spot/camera/hand/humanflow_viz/compressed"
+      }
+    },
+    "3D!1j8e17": {
+      "cameraState": {
+        "distance": 5.006881794848635,
+        "perspective": true,
+        "phi": 75.6521739130436,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0.005946102193789344,
+          0.31995129153915935,
+          3.128412904069994e-19
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": -171.78260869565247,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {
+        "transforms": {
+          "showLabel": false
+        }
+      },
+      "transforms": {
+        "frame:arm_link_el0": {
+          "visible": false
+        },
+        "frame:arm_link_el1": {
+          "visible": false
+        },
+        "frame:arm_link_fngr": {
+          "visible": false
+        },
+        "frame:base_link": {
+          "visible": false
+        },
+        "frame:body": {
+          "visible": false
+        },
+        "frame:front_left_hip": {
+          "visible": false
+        },
+        "frame:front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:front_rail": {
+          "visible": false
+        },
+        "frame:front_right_hip": {
+          "visible": false
+        },
+        "frame:front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:real_front_rail": {
+          "visible": false
+        },
+        "frame:real_rear_rail": {
+          "visible": false
+        },
+        "frame:rear_left_hip": {
+          "visible": false
+        },
+        "frame:rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:rear_rail": {
+          "visible": false
+        },
+        "frame:rear_right_hip": {
+          "visible": false
+        },
+        "frame:rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/body": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_sh0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_sh1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_hr0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_el0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_el1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_wr0": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_wr1": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/arm_link_fngr": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/base_link": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/front_right_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/real_front_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/real_rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_left_lower_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_rail": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_hip": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_upper_leg": {
+          "visible": false
+        },
+        "frame:spot1/base/spot/rear_right_lower_leg": {
+          "visible": false
+        },
+        "frame:arm_link_sh0": {
+          "visible": false
+        },
+        "frame:arm_link_sh1": {
+          "visible": false
+        },
+        "frame:arm_link_hr0": {
+          "visible": false
+        },
+        "frame:arm_link_wr0": {
+          "visible": false
+        },
+        "frame:arm_link_wr1": {
+          "visible": false
+        }
+      },
+      "topics": {},
+      "layers": {
+        "grid": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "5820d44e-2f10-4a45-a717-d27f73f4070a",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "88d99b57-d0f1-4e3d-ac7d-1ab250b32889": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "URDF",
+          "instanceId": "88d99b57-d0f1-4e3d-ac7d-1ab250b32889",
+          "layerId": "foxglove.Urdf",
+          "sourceType": "url",
+          "url": "https://assets.foxglove.dev/demo-datasets/boston-dynamics-spot/spot.urdf",
+          "filePath": "",
+          "parameter": "",
+          "topic": "",
+          "framePrefix": "",
+          "displayMode": "auto",
+          "fallbackColor": "#ffffff",
+          "order": 1
+        },
+        "cbbb07f2-6f2d-42c5-9a11-1125e7a67487": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "URDF",
+          "instanceId": "cbbb07f2-6f2d-42c5-9a11-1125e7a67487",
+          "layerId": "foxglove.Urdf",
+          "sourceType": "url",
+          "url": "https://raw.githubusercontent.com/bdaiinstitute/spot_description/refs/heads/main/spot_description/urdf/standalone_arm.urdf.xacro",
+          "filePath": "",
+          "parameter": "",
+          "topic": "",
+          "framePrefix": "",
+          "displayMode": "auto",
+          "fallbackColor": "#ffffff",
+          "order": 2
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "InteractiveMapPanel.InteractiveMap!3qsaj9a": {},
+    "DiagnosticStatusPanel!19h07f6": {
+      "topicToRender": "/diagnostics",
+      "selectedHardwareId": "0",
+      "selectedName": "THERMAL"
+    },
+    "BagRecorderPanel.bag-recorder!418tg2z": {},
+    "Battery Indicator.Battery display!3sqx05h": {
+      "batteryTopic": "/spot1/battery",
+      "topic": {
+        "batteryTopic": "/spot1/battery"
+      },
+      "foxglovePanelTitle": "Spot1 Batery Display"
+    },
+    "Battery Indicator.Battery display!44bqtx2": {
+      "batteryTopic": "/spot1/base/robot_battery_percentage",
+      "topic": {
+        "batteryTopic": "/spot1/base/robot_battery_percentage"
+      },
+      "foxglovePanelTitle": "Spot2 Battery Status"
+    },
+    "SourceInfo!3li7gek": {},
+    "Tab!2ox3164": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "Robot 1",
+          "layout": {
+            "first": {
+              "first": "Image!3vdfsni",
+              "second": "3D!xol3k4",
+              "direction": "column",
+              "splitPercentage": 36.26149131767109
+            },
+            "second": {
+              "first": "InteractiveMapPanel.InteractiveMap!1yyhwno",
+              "second": {
+                "first": "DiagnosticStatusPanel!20uusjk",
+                "second": "BagRecorderPanel.bag-recorder!3zcr35s",
+                "direction": "row",
+                "splitPercentage": 43.92265193370166
+              },
+              "direction": "column",
+              "splitPercentage": 59.44841675178753
+            },
+            "direction": "row",
+            "splitPercentage": 49.60116026105874
+          }
+        },
+        {
+          "title": "Robot2",
+          "layout": {
+            "first": {
+              "first": "Image!juko9z",
+              "second": "3D!1j8e17",
+              "direction": "column"
+            },
+            "second": {
+              "first": "InteractiveMapPanel.InteractiveMap!3qsaj9a",
+              "second": {
+                "first": "DiagnosticStatusPanel!19h07f6",
+                "second": "BagRecorderPanel.bag-recorder!418tg2z",
+                "direction": "row"
+              },
+              "direction": "column",
+              "splitPercentage": 58.93769152196119
+            },
+            "direction": "row",
+            "splitPercentage": 51.145711333103684
+          }
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": {
+        "first": "Battery Indicator.Battery display!3sqx05h",
+        "second": "Battery Indicator.Battery display!44bqtx2",
+        "direction": "column",
+        "splitPercentage": 49.442379182156124
+      },
+      "second": "SourceInfo!3li7gek",
+      "direction": "column",
+      "splitPercentage": 53.320118929633296
+    },
+    "second": "Tab!2ox3164",
+    "direction": "row",
+    "splitPercentage": 18.594594594594593
+  }
+}
