@@ -6,22 +6,26 @@ import { set } from "lodash";
 import BatteryLevelIndicator from './components/BatteryLevelIndicator';
 
 
-type BatteryState = {
-  voltage: number;
-  temperature: number;
-  current: number;
-  charge: number;
-  capacity: number;
-  design_capacity: number;
-  percentage: number;
-  power_supply_status: number;
-  power_supply_health: number;
-  power_supply_technology: number;
-  present: boolean;
-  cell_voltage: number[];
-  cell_temperature: number[];
-  location: string;
-  serial_number: string;
+// type BatteryState = {
+//   voltage: number;
+//   temperature: number;
+//   current: number;
+//   charge: number;
+//   capacity: number;
+//   design_capacity: number;
+//   percentage: number;
+//   power_supply_status: number;
+//   power_supply_health: number;
+//   power_supply_technology: number;
+//   present: boolean;
+//   cell_voltage: number[];
+//   cell_temperature: number[];
+//   location: string;
+//   serial_number: string;
+// }
+
+type BatteryStateNew = {
+  data: number;
 }
 
 type Config = {
@@ -34,7 +38,7 @@ function BatteryDisplay({ context }: { context: PanelExtensionContext }): JSX.El
   const [messages, setMessages] = useState<undefined | Immutable<MessageEvent[]>>();
   const [renderDone, setRenderDone] = useState<(() => void) | undefined>();
 
-  const [batteryMessage, setbatteryMessage] = useState<BatteryState | undefined>();
+  const [batteryMessage, setbatteryMessage] = useState<BatteryStateNew | undefined>();
 
   // Init config variable
   const [config, setConfig] = useState<Config>(() => {
@@ -49,7 +53,7 @@ function BatteryDisplay({ context }: { context: PanelExtensionContext }): JSX.El
 
   // Topic types memo (filter topics by type)
   const batteryTopics = useMemo(
-    () => (topics ?? []).filter((topic) => topic.schemaName === "sensor_msgs/BatteryState"),
+    () => (topics ?? []).filter((topic) => topic.schemaName === "std_msgs/Float32" || topic.schemaName === "std_msgs/msg/Float32"),
     [topics],
   );
 
@@ -122,7 +126,7 @@ function BatteryDisplay({ context }: { context: PanelExtensionContext }): JSX.El
     if (messages) {
       for (const message of messages) {
         if (message.topic === config.batteryTopic) {
-          setbatteryMessage(message.message as BatteryState);
+          setbatteryMessage(message.message as BatteryStateNew);
         }
       }
     }
@@ -135,7 +139,7 @@ function BatteryDisplay({ context }: { context: PanelExtensionContext }): JSX.El
 
   return (
     <div style={{ padding: "1rem", borderRadius: "0.5rem" }}>
-      <BatteryLevelIndicator level={(batteryMessage?.percentage ?? 0) * 100} />
+      <BatteryLevelIndicator level={(batteryMessage?.data ?? 0)*100} />
     </div>
   );
 }
